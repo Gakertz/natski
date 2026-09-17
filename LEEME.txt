@@ -1,0 +1,16 @@
+Natski / Art Timelapse - archivos modificados para build portable
+
+Extrae este ZIP encima de:
+C:\Users\Tomas\Desktop\art-timelapse git
+
+NO reemplaza gui.py, sai.py ni timelapse.py, por lo que conserva tus personalizaciones.
+
+Luego abre PowerShell en la raiz y ejecuta:
+.\build_windows.ps1
+
+No necesitas activar Activate.ps1. El script usa directamente venv\Scripts\python.exe.
+
+Resultado:
+dist\art-timelapse\art-timelapse.exe
+
+Para otro computador, distribuye la carpeta completa o el ZIP portable generado; no solo el EXE.
